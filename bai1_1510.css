@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+.email-icon-container {
+    position: relative;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 16px;
+}
+
+.email-icon-container:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;  /* Kích thước vòng tròn */
+    height: 70px; /* Kích thước vòng tròn */
+    background-color: white; /* Màu nền trắng */
+    border: 3px solid aqua; /* Viền xanh */
+    border-radius: 50%; /* Tạo hình tròn */
+    z-index: -1; /* Đặt ở phía sau */
+}
+
+.email-icon {
+    font-size: 30px;
+    color: aqua; /* Màu của biểu tượng email */
+    position: relative;
+    z-index: 1; /* Đặt ở phía trên */
+}
+
+.input-field
+{
+    margin-bottom: 20px;
+}
+.input-container input
+{
+    color: rgb(39, 35, 35);
+    border-radius: 8px;/*bo góc cho khung input*/
+    padding: 30px;/*khoảng cách xung quanh nội dụng bên trong thùng chứa*/
+    width: 500px;/*chiều rộng của thùng chứa*/
+    font-size: 30px;
+    border: none;
+}
+.input-container button
+{
+    width: 30%;
+    background-color:aqua;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;/*Thay đổi con trỏ chuột thành bàn tay khi qua nút*/    
+}
