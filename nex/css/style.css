@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    gap: 43.85px;
+   display: flex; 
+   justify-content: space-between;
+   padding-left: 100.23px;
+   padding-right: 100.23px;
+}
+.header-left{
+    font-size: 38px;
+}
+.header-right ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 16.71px;
+}
+.header-right ul li a{
+    font-size: 11.14px;
+    text-decoration: none;
+    color: black;
+}      
+.btn{
+    border: none;
+    background-color: #4CAF4F;
+    padding-top: 9.74px;
+    padding-right: 22.27px;
+    padding-bottom: 9.74px;
+    padding-left: 5.57px;
+} 
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100.23px;
+    padding-right: 100.23px;
+    padding-bottom: 66.82px;
+    padding-top: 66.82px;
+}
+.BNT{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    gap: 73.39px;
+    background-color: #F5F7FA;
+}
+.banner-left h1{
+    font-size: 44.55px;
+    color:  #4D4D4D;
+}
+.banner-left h2{
+    margin-top: 20px;
+    font-size: 44.55px;
+    color: #4CAF4F;
+
+}
+.banner-left p{
+    margin-top: 20px;
+    font-size: 11.14px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.top{
+    text-align: center;
+    gap: 11.14pxpx;
+
+}
+.top h1{
+    font-size: 36px;
+    color: #4D4D4D ;
+}
+.top p {
+    font-size: 16px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 72.39px;
+    gap: 180px;
+    padding: 50px;
+}
+.client-center h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+}
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 100.23px;
+    padding-left: 100.23px;
+    gap: 11.14px;
+  }
+.box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 19.49px;
+}
+.box h4{
+    display: flex;
+    justify-content: center;
+    gap: 11.14px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+
+}
+.more-right{
+    font-size: 25.06px;
+    color: #4D4D4D;
+    padding-right: 100.23;
+    padding-left: 100.23px;
+}
